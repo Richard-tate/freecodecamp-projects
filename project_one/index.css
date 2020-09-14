@@ -1,0 +1,159 @@
+
+
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    /* color: #333; */
+    margin: 0;
+    
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
+a{
+  text-decoration: none;
+    color: white;
+}
+#main{
+    position: relative;
+    background: rgba(30,30,30, 0.96);
+    width: 80vw;
+    color: white;
+    margin: 0 auto;
+}
+@media (max-width: 400px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #list-img{
+      height: 300px;
+      width: 600px;
+      padding-top: 1em;
+  }
+  .img-text{
+      position: relative;
+      text-align: center;
+  }
+  
+  #img-div {
+    background: rgba(115, 47, 47,0.8);
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px auto;
+    width: 80%;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+#title-area{
+    position: relative;
+    height: 20%;
+    text-align: center;
+}
+
+#info-one{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    width: 80%;
+    height: 80%;
+    padding: 1.5em 0;
+}
+#two{
+  display: flex;
+}
+
+@media (max-width: 800px){
+  #two{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.left{
+    width: 50%;
+    background-color:rgba(115, 47, 47,0.8) ;
+}
+.right{
+  background: rgba(30,30,30, 0.9);
+  width:50%;
+}
+@media (max-width: 800px){
+  .left, .right{
+    width: 100%;
+  }
+}
+#info-two{
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 4em auto;
+  text-align: start;
+  list-style-type: none;
+  left: -1em;
+}
+#img-2, #img-3{
+  position: relative;
+  margin: 2em auto;
+  left: 0em;
+}
+
+#info-three{
+  position: relative;
+  width: 80%;
+  list-style-type: none;
+  text-align: start;
+  margin: 4em auto;
+  left: -1em;
+}
+#bottom{
+  height: 100px;
+  padding: 1.3em;
+}
+.b-text{
+  position: relative;
+  width: 80%;
+  margin: 1em auto;
+
+}
+
+#tribute-link{
+  position: relative;
+  width: 80px;
+  border-radius: 10px ;
+  background-color: rgba(115, 47, 47,0.9);
+  padding: 10px;
+}
+#tribute-link:hover{
+  background-color:#fff;
+  color: #000;
+}
+
+
